@@ -1,0 +1,152 @@
+/* estrutura */
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', serif;
+	background-color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Bitter', sans-serif;
+	display: inline-block;
+	color: #fff;
+}
+h1 {
+	font-size: 1.1em;
+}
+h2 {
+	font-size: 0.8em;
+	color: #b3b3b3;
+	margin-left: 20px;
+}
+h3 {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	position: relative;
+	width: 79.5%;
+	max-height: 100%;
+	padding: 0;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+#principal {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+	padding-top: 100px;
+}
+.flex {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	max-width: 79.5%;
+	margin: 0 301px;
+	left: 0;
+	right: 0;
+	border-right: 1px solid #606060;
+}
+
+/* navbar */
+nav {
+	display: inline-flex;
+	justify-content: center;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	background-color: #000;
+}
+#nav-topo {
+	height: 3.66%;
+	z-index: 15;
+	padding: 1.098% 0;
+	display: inline-flex;
+	align-items: center;
+}
+#logo-sabra img {
+	padding-right: 20px;
+	max-width: 150px;
+	border-right: 1px double #fff;
+}
+#nav-topo h1 {
+	padding: 0 20px;
+}
+
+/* principal */
+#bloco-esquerda,
+#bloco-direita {
+	display: inline-flex;
+	flex-direction: column;
+}
+	/* bloco esquerda */
+	#quadrado {
+		width: 412px;
+		height: 412px;
+		margin-right: 40px;
+		background-color: #b3b3b3; 
+	}
+	#info-obra {
+		margin-top: 20px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	#info-obra img {
+		margin-right: 15px;
+		max-height: 70px;
+	}
+	#info-obra p {
+		max-width: 320px;
+	}
+	/* bloco direita */
+		/* comum: partes e seções */
+		#titulo-partes,
+		#titulo-sections {
+			display: flex;
+			align-items: center;
+			margin-bottom: 15px;
+		}
+		#titulo-partes img,
+		#titulo-sections img {
+			width: 25.389px;
+			height: 25.988px;
+			margin-right: 20px;
+		}
+		/* partes */
+		#partes {}
+		#partes li {
+			position: relative;
+			left: 10px;
+			margin-bottom: 10px;
+		}
+		#partes li img {
+			margin-right: 19px;
+		}
+		#partes li a,
+		#sections li a {
+			text-decoration: none;
+			color: #000;
+		}
+		#partes li img,
+		#partes li a {
+			display: inline-block;
+		}
+		/* seções */
+		#sections {
+			align-items: center;
+			margin-top: 21px;
+		}
+		#sections ul {
+			margin-left: 42px;
+		}
+		#sections li {
+			margin-bottom: 10px;
+		}

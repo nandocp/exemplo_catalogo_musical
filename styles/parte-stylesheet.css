@@ -1,0 +1,186 @@
+/* estrutura */
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', serif;
+	background-color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Bitter', sans-serif;
+	display: inline-block;
+	color: #fff;
+}
+h1 {
+	font-size: 1.1em;
+}
+h2,
+.dropdown-btn {
+	font-size: 0.8em;
+}
+.container {
+	position: relative;
+	width: 79.5%;
+	max-height: 100%;
+	padding: 0;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+#principal {
+	position: relative;
+	width: 100%;
+	z-index: 5;
+	margin-bottom: 1.098%;
+}
+
+/* navbar */
+nav {
+	display: inline-flex;
+	justify-content: center;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	background-color: #000;
+}
+#nav-topo {
+	height: 3.66%;
+	z-index: 15;
+	padding: 1.098% 0;
+	display: inline-flex;
+	align-items: center;
+}
+#logo-sabra,
+#identidade,
+#partes,
+#sections,
+#copia,
+#pesquisa {
+	display: inline-block;
+	position: relative;
+}
+#logo-sabra img {
+	padding-right: 20px;
+	max-width: 150px;
+	border-right: 1px double #fff;
+}
+#identidade {
+	padding: 0 20px;
+}
+#identidade .compositor {
+	text-decoration: none;
+	margin-left: 7px;
+}
+#identidade .compositor h2 {
+	color: #999;
+}
+#identidade a:hover {
+	text-decoration: underline;
+}
+#info {
+	display: inline-block;
+	padding: 0 20px 0 10px;
+}
+#info .dropdown-lista a,
+#info .dropdown-lista p {
+	font-size: 0.8em;
+}
+#partes .primeira {
+	border-bottom: 1px solid #fff;
+	padding-top: 5px;
+}
+#partes,
+#sections,
+#copia {
+	padding: 0 10px;
+}
+#copia {
+	padding-right: 0;
+}
+#pesquisa {
+	margin-left: auto;
+}
+#pesquisa input[type="search"] {
+	border: 0;
+	padding: 4px;
+	width: 230px;
+	border-radius: 2px;
+}
+#pesquisa input[type="button"] {
+	position: absolute;
+	background-image: url("../assets/simbolos/lupa.svg");
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 25%;
+	border: 0;
+	right: 10px;
+	top: 0;
+	width: 40px;
+	height: 100%;
+	padding-right: 3px;
+}
+	/* dropdown menu */
+	#partes .dropdown-btn,
+	#sections .dropdown-btn,
+	#copia .dropdown-btn {
+		display: inline-block;
+		padding: 0;
+		border: none;
+		font-family: 'Raleway', sans-serif;
+		color: #fff;
+		background-color: transparent;
+		cursor: pointer;
+		align-items: center;
+		line-height: 1em;
+	}
+	.dropdown-btn span {
+		padding-left: 20px;
+	}
+	#partes .dropdown-btn {
+    background: url("../assets/simbolos/teclado.svg");
+    background-repeat: no-repeat;
+	}
+	#sections .dropdown-btn {
+		background: url("../assets/simbolos/nota-musical.svg");
+		background-repeat: no-repeat;
+	}
+	#copia .dropdown-btn {
+	}
+	.dropdown-lista {
+		display: none;
+		position: absolute;
+		background-color: #000;
+		color: #fff;
+		min-width: 80%;
+	}
+	.dropdown-lista a,
+	.dropdown-lista p {
+		color: #fff;
+		min-width: 70%;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+	.dropdown-lista a:hover { background-color: #0c0c0c; }
+	#partes:hover .dropdown-lista,
+	#sections:hover .dropdown-lista,
+	#copia:hover .dropdown-lista { display: block;	}
+	#partes:hover .dropdown-btn,
+	#sections:hover .dropdown-btn,
+	#copia:hover .dropdown-btn { background-color: #000; }
+	/* fim dropdown menu */
+
+/* principal */
+#principal {
+	padding-top: 4.758%;
+}
+#principal .fundo-principal {
+	background-color: #fff;
+	z-index: 9;
+}
